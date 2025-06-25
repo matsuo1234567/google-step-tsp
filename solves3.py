@@ -64,7 +64,7 @@ def solve(cities):
 
     # --- ステップ3: 3-opt法（改善） ---
     # 注意: この処理は O(N^3) のため、Nが大きいと非常に時間がかかります。
-improved = True
+    improved = True
     while improved:
         improved = False
         # 3つの「辺」を選ぶ。辺は (tour[i], tour[i+1]) のように定義される
